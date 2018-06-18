@@ -44,8 +44,8 @@ files.each do |file|
     change["when"] = "2018-06-15"
     change["xml:id"] = "MMM"
     change.inner_html = %q(
-      Provenance and acquisition information added using <ref target=”https://github.com/littlegustv/oxfordupdates/blob/master/test_case_for_oxford_prov.rb”>https://github.com/littlegustv/oxfordupdates/blob/master/test_case_for_oxford_prov.rb</ref>
-      in collaboration with the <ref target=”http://mappingmanuscriptmigrations.org/”>Mapping Manuscript Migrations</ref> project.'
+      Provenance and acquisition information added using <ref target=https://github.com/littlegustv/oxfordupdates/blob/master/test_case_for_oxford_prov.rb>https://github.com/littlegustv/oxfordupdates/blob/master/test_case_for_oxford_prov.rb</ref>
+      in collaboration with the <ref target=http://mappingmanuscriptmigrations.org/>Mapping Manuscript Migrations</ref> project.'
     )
     change_person = doc.create_element('persName')
     change_person.content = 'Mitch Fraas/Mapping Manuscript Migrations'
